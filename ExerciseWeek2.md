@@ -17,3 +17,16 @@ Fördelen med Agile är att kunden kan vara med och testa efter lanseringen och va
 
 Vattenfall hade gått snabbare, men för mig som nybörjare hade jag valt agile i utbildningssyfte då jag  
 får vattenfall på köpet och där kunden är med och bestämmer och har möjlighet till ändringar under processens gång.
+
+
+
+**2. Vad är ett Git-commit och varför är det viktigt?**  
+Beskriv ett verkligt scenario där Git hjälper dig undvika problem.  
+
+Git-commit är en snapshot av ett projekts samtliga filer, den sparar alla ändringar som har gjorts där  
+man kan se vem som gjort ändringen, när och vad som är ändrad. När man gör en commit får  
+commiten en specifik id och som skapar en historik där man kan gå tillbaka och se alla ändringar som  
+har gjorts och som man kan återanvända om man gör något fel, så kan man alltid via commit id:en gå  
+tillbaka till en äldre version istället för att börja om från början vilket är viktigt speciellt i ett större  
+projekt. Ett scenario är där ett team jobbar på ett projekt, en i teamet råkar förstöra en kod, eller  
+råkar ta bort en fil, då kan man bara gå tillbaka till en commit innan och fixa till koden eller återställa filen enkelt.
